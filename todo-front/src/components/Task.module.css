@@ -1,0 +1,69 @@
+.task {
+    background: var(--gray-500);
+    text-decoration: none;
+    /* Gray 500 */
+
+    background: #262626;
+    /* Gray 400 */
+
+    border: 1px solid #333333;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 1rem;
+
+    width: 100%;
+    height: 4.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    gap: 12px;
+
+}
+
+.text {
+    flex: 1;
+    padding: 1.5rem;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.checkbox {
+    background-color: var(--gray-500);
+    border: 0.125rem solid var(--blue-100);
+    border-radius: 50%;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+.checked {
+    background-color: var(--purple-500);
+    border-color: var(--purple-500);
+    border-radius: 50%;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+.checked label:after {
+    border: 2px solid var(--white);
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 4px;
+    left: 3px;
+    opacity: 1;
+    top: 5px;
+    transform: rotate(-45deg);
+    width: 8px;
+
+}
+
+.trash {
+    cursor: pointer;
+}

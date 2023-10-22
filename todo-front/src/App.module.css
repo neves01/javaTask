@@ -1,0 +1,62 @@
+.wrapper {
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskContainer {
+    margin-top: 3.375rem;
+    width: 46rem;
+}
+
+.taskContainerEmpty {
+    margin-top: 3.375rem;
+    width: 46rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskContainer>header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+}
+
+.taskContainer .created {
+    text-decoration: none;
+    color: var(--blue-400);
+    background: var(--gray-200);
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.taskContainer>header .spanCount {
+    background: var(--gray-500);
+    color: var(--gray-200);
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.taskContainer>header .done {
+    text-decoration: none;
+    color: var(--purple-400);
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.taskContent {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
